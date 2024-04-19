@@ -1,4 +1,4 @@
-![image](https://github.com/HenryJlh/Transformer-Fusion-and-Distillation-model/assets/106720714/3fc54ef3-86d8-43c0-8833-44241d6075fd)# Transformer-Fusion-and-Distillation-model
+# Transformer-Fusion-and-Distillation-model
 ## Abstract
 This paper shows the potential of ViT model (Vision Transformer) to achieve multi-modal fusion based on a case implementation of "cortical cataract intelligent grading". This project intends to learn pathological features that are in line with clinical judgment by multi-modal fusion of image and sub-label from local features. At the same time, a distillation network framework is proposed to eliminate the input of sub-label in the test, so that better classification results can be obtained by relying on images alone. 
 ## Methods
@@ -9,6 +9,7 @@ Lastly, The trained high-precision fusion model is used to guide the learning of
 The dataset can be divided into two parts, image and text. There are 2050 cortical cataract images differeing in levels from 0-7. The higher level is, the more serious the cataract symptom is. 0 level means the eye is healthy without any signs of cortical cataract. The text dataset is sub-label data, which is mannually labeld and used to help doctors to judge the severity of the cataract symptom. Evey image corresponds to six sublables. And each sublabl describes one local feature of the image. 
 ## Results
 Our high-precision fusion model achieves 93.02% accuracy on the cortical cataract dataset, and the residual network of knowledge distillation achieves 79.27% accuracy without sublabel input, which is nearly 5% higher than that of residual network alone.
+
 ![image](https://github.com/HenryJlh/Transformer-Fusion-and-Distillation-model/assets/106720714/64c7d163-36a7-4c3e-a067-cf63090d16ce)
 ## 1. Features Extraction
 ![image](https://github.com/HenryJlh/Transformer-Fusion-and-Distillation-model/assets/106720714/ca4c53c0-ea84-4bba-9d03-30aeac06c11d)
