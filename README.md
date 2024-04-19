@@ -6,7 +6,7 @@ Our framework design is mainly divided into three parts: Firstly, image features
 ## 1. Features Extraction
 ![image](https://github.com/HenryJlh/Transformer-Fusion-and-Distillation-model/assets/106720714/91a8dec4-ebcb-45a0-ac95-24e02c1d8db2)
 ## 2. Vision Transformer Fusion
-![image](https://github.com/HenryJlh/Transformer-Fusion-and-Distillation-model/assets/106720714/d96abc66-9024-4e3b-a3e0-fcf403db1a84)
+![image](https://github.com/HenryJlh/Transformer-Fusion-and-Distillation-model/assets/106720714/fe311341-5e0b-4a8e-9c75-cd2ef31e19d3)
 ## 3. Knowledge Distillation
 ![image](https://github.com/HenryJlh/Transformer-Fusion-and-Distillation-model/assets/106720714/24a1b6f2-899e-4e81-aff1-15de64dcf4e4)
 
